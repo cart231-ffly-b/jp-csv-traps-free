@@ -1,0 +1,23 @@
+{
+  "encoding": "utf-8",
+  "newline": "CRLF",
+  "rows": [
+    [
+      "和暦",
+      "略記",
+      "スラッシュ",
+      "ISO",
+      "Excel serial"
+    ],
+    [
+      "令和8年1月2日",
+      "R8.1.2",
+      "2026/1/2",
+      "2026-01-02",
+      "46024"
+    ]
+  ],
+  "trap": "Date-looking strings in several formats.",
+  "why_it_breaks": "Date inference rewrites the input and depends on locale.\nThe serial is a literal; no date equivalence is asserted.",
+  "free": true
+}

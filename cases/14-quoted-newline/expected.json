@@ -1,0 +1,17 @@
+{
+  "encoding": "utf-8",
+  "newline": "CRLF",
+  "rows": [
+    [
+      "名前",
+      "住所"
+    ],
+    [
+      "架空 花子",
+      "星見県雲町1-2\r\n架空館3階"
+    ]
+  ],
+  "trap": "A quoted address contains an embedded CRLF.",
+  "why_it_breaks": "Line splitting creates a false extra record.\nUniversal newline translation changes the field's exact string.",
+  "free": true
+}

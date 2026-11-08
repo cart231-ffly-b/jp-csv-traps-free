@@ -1,0 +1,15 @@
+{
+  "encoding": "cp932",
+  "newline": "CRLF",
+  "rows": [
+    [
+      "名称"
+    ],
+    [
+      "ﾃｽﾄ ｶﾌﾞｼｷｶﾞｲｼｬ"
+    ]
+  ],
+  "trap": "Half-width katakana and an ASCII space in cp932.",
+  "why_it_breaks": "UTF-8 decoding rejects the bytes.\nAutomatic width normalization changes the answer.",
+  "free": true
+}

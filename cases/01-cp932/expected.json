@@ -1,0 +1,17 @@
+{
+  "encoding": "cp932",
+  "newline": "CRLF",
+  "rows": [
+    [
+      "名前",
+      "住所"
+    ],
+    [
+      "架空 花子",
+      "星見県雲町1-2"
+    ]
+  ],
+  "trap": "Japanese text encoded as cp932.",
+  "why_it_breaks": "UTF-8 decoding rejects these bytes.\nASCII-only samples hide this error.",
+  "free": true
+}

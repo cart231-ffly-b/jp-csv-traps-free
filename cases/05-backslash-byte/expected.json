@@ -1,0 +1,17 @@
+{
+  "encoding": "cp932",
+  "newline": "CRLF",
+  "rows": [
+    [
+      "文字",
+      "用途"
+    ],
+    [
+      "表ソ能予",
+      "架空の識別子"
+    ]
+  ],
+  "trap": "Each selected cp932 character contains a 0x5C trail byte.",
+  "why_it_breaks": "Byte-level backslash escaping splits multibyte characters.\nThe bytes are character data, not escape instructions.",
+  "free": true
+}
