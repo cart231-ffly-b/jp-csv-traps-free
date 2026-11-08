@@ -35,6 +35,8 @@ Each case folder has `input.csv`, `expected.json` (encoding, rows, trap and why 
 
 The full pack has 30 cases. It adds cp932 extension characters, BOMs, UTF-16 tab files, wave dash collapse, characters outside cp932, mixed and lone-CR newlines, leading zeros, 19-digit IDs, full-width digits, formula-looking cells, duplicate headers and more. It also includes the generator that rebuilds every file byte for byte.
 
+Get it on Payhip ($29): https://payhip.com/b/qjKm2
+
 All data is fictional.
 
 ## License
